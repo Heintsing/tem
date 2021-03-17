@@ -92,7 +92,7 @@ n_walk = None
 index = 0
 # width of env for particular batch is pars['widths'][pars['diff_env_batches_envs'][env]]
 
-print('Training Started') if pars['training'] else print('Debugging Started')
+print('Training Started') #if 1 else print('Debugging Started') #pars['training']
 for i in range(pars['train_iters']):
 
     # INITIALISE ENVIRONMENT AND INPUT VARIABLES
